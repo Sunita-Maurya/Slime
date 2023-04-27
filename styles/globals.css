@@ -8,6 +8,12 @@
   font-family: Oduda;
   src: url("/oduda/Oduda-Bold-Demo.otf");
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
 
 body {
   background-image: url("/assets/images/bg.png");
@@ -123,4 +129,55 @@ p {
 
 .toggle-btn[type="checkbox"]:checked {
   background-image: url("/assets/images/hestorybg.png");
+}
+.inputbg {
+  background-image: url("/assets/images/inputbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  border: 1px solid #3c579d1c;
+}
+.nftbg {
+  background-image: url("/assets/images/nftb.png");
+  background-size: 100% 100%;
+}
+.headerbg-2 {
+  background-image: url("/assets/images/userbg.png");
+  background-size: 100%;
+}
+.dragbg {
+  background-image: url("/assets/images/dragbg.png");
+  background-size: 100% 100%;
+}
+.poolbg {
+  background-image: url("/assets/images/poolbg.png");
+  /* background-size: 100% 100%; */
+  background-repeat: no-repeat;
+}
+.lotterybg {
+  background-image: url("/assets/images/lotterybg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 20px;
+  width: 300px;
+}
+
+.progress-done {
+  background: linear-gradient(to right, #e394ff, #316bff, #5effec);
+  /* box-shadow: 0 3px 3px -5px #f2709c, 0 2px 2px #f2709c; */
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
 }

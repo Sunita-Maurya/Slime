@@ -4,7 +4,8 @@ import GiveawaysHeader from "@/components/GiveawaysHeader";
 import Navbar from "@/components/Navbar";
 
 const User = () => {
-  const [list, setList] = useState([38, 34]);
+  const arrayData = [];
+  const [list, setList] = useState(arrayData);
   const [inputvalue, setinputvlue] = useState(0);
   const handleInputChange = (event) => {
     const value = event.target.value;
@@ -17,7 +18,8 @@ const User = () => {
   const handlesubmit = (e) => {
     e.preventDefault();
     setList([...list, inputvalue]);
-    console.log(list);
+    arrayData.push(...list, inputvalue);
+    console.log(arrayData);
   };
   return (
     <div
