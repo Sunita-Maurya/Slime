@@ -48,7 +48,7 @@ const lottery = () => {
           <div className="z-0 px-20 py-10 text-[#3C579D] bg-[#ffffff59] mt-10 rounded-xl backdrop-blur-[10px]">
             <h2 className="slime-text font-[oduda]">743,687,6545</h2>
             <p className="text-[#3C579D] font-bold text-3xl opacity-[20%] text-center font-[oduda]">
-              in prizes
+              in prizesd
             </p>
             <Progress done="60" />
           </div>
@@ -61,29 +61,37 @@ const lottery = () => {
       {/* table */}
       <div className="flex justify-center ">
         <div className="  flex items-center  flex-col gap-3 text-center my-5 p-5 px-10 pb-14 bg-[rgba(255, 255, 255, 0.35)] border border-[#FFFFFF59] backdrop-blur-lg rounded-2xl">
-          <table class="table-auto">
-            <thead className="text-[#3C579D] ">
-              <tr>
-                <th>Song</th>
-                <th>Artist</th>
-                <th>Year</th>
+          <table class="table-auto font-semibold opacity-[0.6]">
+            <thead className="text-[#3C579D] border border-t-0 border-x-0 border-[#3C579D] pb-2">
+              <tr className="pb-2">
+                <th>#</th>
+                <th>Round Number</th>
+                <th>Winner Wallet</th>
+                <th>Date/Time</th>
+                <th>Tokens</th>
               </tr>
             </thead>
             <tbody className="text-[#3C579D] ">
               <tr>
-                <td>The Sliding </td>
-                <td>Malcolm Lockyer</td>
-                <td>1961</td>
+                <td>1 </td>
+                <td>507</td>
+                <td>0x65867...585956896</td>
+                <td>12-03-2024 02 : 46 PM</td>
+                <td>Etherium</td>
               </tr>
               <tr>
-                <td>Witchy Woman</td>
-                <td>The Eagles</td>
-                <td>1972</td>
+                <td>1 </td>
+                <td>507</td>
+                <td>0x65867...585956896</td>
+                <td>12-03-2024 02 : 46 PM</td>
+                <td>Etherium</td>
               </tr>
               <tr>
-                <td>Shining Star</td>
-                <td>Earth, Wind, and Fire</td>
-                <td>1975</td>
+                <td>1 </td>
+                <td>507</td>
+                <td>0x65867...585956896</td>
+                <td>12-03-2024 02 : 46 PM</td>
+                <td>Etherium</td>
               </tr>
             </tbody>
           </table>

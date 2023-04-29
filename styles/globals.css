@@ -181,3 +181,12 @@ p {
   opacity: 0;
   transition: 1s ease 0.3s;
 }
+table {
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+table td {
+  padding: 10px 20px;
+}

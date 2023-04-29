@@ -105,7 +105,7 @@ const UserDetails = () => {
           <div key={i} className="grid place-items-center mb-8 px-5">
             <button
               onClick={() => router.back()}
-              className="text-[#3C579D] font-bold flex items-center mr-[50%]"
+              className="text-[#3C579D] font-bold flex items-center gap-2 mr-[55%]"
             >
               <img src="/assets/icons/backarrow.png" alt="backarrow" />
               <span>Go back</span>
@@ -205,25 +205,17 @@ const UserDetails = () => {
                   <div className=" flex justify-between md:flex-row flex-col">
                     <div className="historybg rounded-full py-2 px-1 mt-3 flex  items-center">
                       <img src="/assets/images/cup.png" alt="cup" />
-                      <span className="text-[24px] font-[oduda]">
-                        768,921
-                      </span>
+                      <span className="text-[24px] font-[oduda]">768,921</span>
                       COIN
                     </div>
                     <div className="historybg rounded-full py-2 px-1 mt-3 flex  items-center">
-                      
                       <img src="/assets/images/cup.png" alt="cup" />
-                      <span className="text-[24px] font-[oduda]">
-                        768,921
-                      </span>
+                      <span className="text-[24px] font-[oduda]">768,921</span>
                       COIN
                     </div>
                     <div className="historybg rounded-full py-2 px-1 mt-3 flex  items-center">
-                      
                       <img src="/assets/images/cup.png" alt="cup" />
-                      <span className="text-[24px] font-[oduda]">
-                        768,921
-                      </span>
+                      <span className="text-[24px] font-[oduda]">768,921</span>
                       COIN
                     </div>
                   </div>
@@ -235,9 +227,7 @@ const UserDetails = () => {
                   <div className="flex justify-between md:flex-row flex-col items-center gradient-box p-2 rounded-lg ">
                     <div className="flex items-center gap-3">
                       <img src="/assets/icons/twitter.png" alt="twitter" />
-                      <h3
-                        className="text-[#3C579D] text-xl font-[700] "
-                      >
+                      <h3 className="text-[#3C579D] text-xl font-[700] ">
                         Follow Slime on Facebook
                       </h3>
                     </div>
@@ -260,9 +250,7 @@ const UserDetails = () => {
                   <div className="flex justify-between md:flex-row flex-col items-center gradient-box p-2 rounded-lg mt-5 ">
                     <div className="flex items-center gap-3">
                       <img src="/assets/icons/facebook.png" alt="facebook" />
-                      <h3
-                        className="text-[#3C579D] text-xl font-[700]  "
-                      >
+                      <h3 className="text-[#3C579D] text-xl font-[700]  ">
                         Follow Slime on Facebook
                       </h3>
                     </div>
@@ -285,9 +273,7 @@ const UserDetails = () => {
                   <div className="flex justify-between md:flex-row flex-col items-center gradient-box p-2 rounded-lg mt-5 ">
                     <div className="flex items-center gap-3">
                       <img src="/assets/icons/youtube.png" alt="youtube" />
-                      <h3
-                        className="text-[#3C579D] text-xl font-[700]  "
-                      >
+                      <h3 className="text-[#3C579D] text-xl font-[700]  ">
                         Follow Slime on Facebook
                       </h3>
                     </div>
@@ -310,9 +296,7 @@ const UserDetails = () => {
                   <div className="flex justify-between md:flex-row flex-col items-center gradient-box p-2 rounded-lg mt-5 ">
                     <div className="flex items-center gap-3">
                       <img src="/assets/icons/telegram.png" alt="telegram" />
-                      <h3
-                        className="text-[#3C579D] text-xl font-[700]  "
-                      >
+                      <h3 className="text-[#3C579D] text-xl font-[700]  ">
                         Follow Slime on Facebook
                       </h3>
                     </div>
@@ -335,9 +319,7 @@ const UserDetails = () => {
                   <div className="flex justify-between md:flex-row flex-col items-center gradient-box p-2 rounded-lg mt-5 ">
                     <div className="flex items-center gap-3">
                       <img src="/assets/icons/discord.png" alt="discord" />
-                      <h3
-                        className="text-[#3C579D] text-xl font-[700]  "
-                      >
+                      <h3 className="text-[#3C579D] text-xl font-[700]  ">
                         Follow Slime on Facebook
                       </h3>
                     </div>

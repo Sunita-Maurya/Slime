@@ -140,13 +140,13 @@ const create = () => {
             </div>
           </div>
           <div
-            className="dragbg py-5 lg:p-0 p-5 "
+            className="dragbg py-5 lg:p-5 p-5 "
             // style={{
             //   backgroundImage: "url(/assets/images/dragbg.png)",
             //   backgroundSize: "100% 100% ",
             // }}
           >
-            <h2 className="text-[#3C579D] text-[20px] mb-5 text-center ">
+            <h2 className="text-[#3C579D] text-[20px] my-5 text-center ">
               Set Task
             </h2>
             <div
