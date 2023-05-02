@@ -198,7 +198,13 @@ const UserDetails = () => {
                     </div>
                   </div>
                 </div>
-                <div className=" px-8 ">
+                <div
+                  className=" px-8 "
+                  // style={{
+                  //   backgroundImage:
+                  //     "linear-gradient(to left ,#FFFFFF,#E394FF)",
+                  // }}
+                >
                   <h3 className="text-[#3C579D] text-[20px] font-bold mt-8 opacity-[70%] text-center">
                     Prizes
                   </h3>

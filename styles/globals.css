@@ -52,7 +52,9 @@ body {
     #2b93ea 46.53%,
     #e394ff 95.54%
   );
+
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   /* text-align: center; */
   font-weight: bold;
@@ -189,4 +191,9 @@ table {
 
 table td {
   padding: 10px 20px;
+}
+
+.accordionbg{
+  background-image: url('/assets/images/accordbg.png');
+  background-size: 100% 100%;
 }

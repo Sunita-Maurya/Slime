@@ -42,7 +42,7 @@ const lottery = () => {
         <img
           src="/assets/images/xllogo.png"
           alt="logo"
-          className="absolute z-50  top-[20%] ]"
+          className="absolute z-50 top-[20%]"
         />
         <div className="">
           <div className="z-0 px-20 py-10 text-[#3C579D] bg-[#ffffff59] mt-10 rounded-xl backdrop-blur-[10px]">

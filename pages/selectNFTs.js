@@ -63,7 +63,6 @@ const SelectNFTs = () => {
                 Forza Horizon #245
               </div>
               <div className=" inputbg h-10 w-10 bg-cover flex justify-center items-center text-[#3C579D]">
-                {" "}
                 &#8722;
               </div>
             </div>
